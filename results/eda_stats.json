@@ -1,0 +1,58 @@
+{
+ "all_reports": 528000,
+ "l01_reports": 28634,
+ "l01_share": 0.0542,
+ "l01_drugs": 73,
+ "pairs": 24663,
+ "events": 5167,
+ "event_rows": 96310,
+ "median_num_drugs_l01": 5.0,
+ "mean_num_drugs_l01": 9.42,
+ "share_5plus": 0.548,
+ "share_5plus_all": 0.481,
+ "serious_yes": 0.811,
+ "sex": {
+  "Female": 0.554,
+  "Male": 0.377,
+  "Unknown": 0.069
+ },
+ "age_median": 61.0,
+ "age_missing": 0.199,
+ "top_countries": {
+  "US": 0.411,
+  "CA": 0.089,
+  "DE": 0.066,
+  "JP": 0.065,
+  "FR": 0.061
+ },
+ "in_sider_rows": 0.38,
+ "reports_per_year": {
+  "2015": 2148,
+  "2016": 2713,
+  "2017": 2732,
+  "2018": 2598,
+  "2019": 2843,
+  "2020": 2596,
+  "2021": 2796,
+  "2022": 2616,
+  "2023": 2943,
+  "2024": 2366,
+  "2025": 2283
+ },
+ "num_drugs_max": 1565,
+ "num_drugs_gt40": 712,
+ "pairs_1_report": 0.575,
+ "pairs_ge3": 6472,
+ "pairs_ge10": 1606,
+ "offsides_leak_share_by_N": {
+  "3": 0.742,
+  "5": 0.687,
+  "10": 0.639
+ },
+ "missing_l01_pct": {
+  "serious": 0.0,
+  "patient_sex": 0.0,
+  "patient_age_years": 19.9,
+  "age_group": 0.0
+ }
+}

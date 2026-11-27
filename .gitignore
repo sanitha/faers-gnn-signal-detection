@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv*/
+.DS_Store
+# data and large intermediates are not stored in the repository
+datasets/*
+!datasets/README.md
+!datasets/download_data.sh
+analysis/*.pkl
+analysis/rgcn_scores/
+analysis/*.npy
+analysis/*.log

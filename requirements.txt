@@ -1,0 +1,10 @@
+# Versions used for the reported results (Python 3.12.7, Apple M1 Max, CPU/MPS)
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+scikit-learn==1.5.1
+xgboost==3.4.1
+torch==2.15.0
+torch-geometric==2.8.1
+matplotlib==3.10.0
+seaborn==0.13.2

@@ -7,9 +7,9 @@ mkdir -p sider_4.1 offsides_twosides
 echo "== OFFSIDES =="
 curl -L -o offsides_twosides/OFFSIDES.csv.gz https://tatonettilab-resources.s3.us-west-1.amazonaws.com/nsides/OFFSIDES.csv.gz
 
-echo "== SIDER 4.1 (check http://sideeffects.embl.de/download/ if these links have moved) =="
+echo "== SIDER 4.1 (Internet Archive snapshot of the original download page; the original site was unreachable) =="
 for f in drug_names.tsv drug_atc.tsv meddra_all_se.tsv.gz; do
-  curl -L -o "sider_4.1/$f" "http://sideeffects.embl.de/media/download/$f" || echo "Could not fetch $f; download it from the SIDER site by hand."
+  curl -L -o "sider_4.1/$f" "https://web.archive.org/web/20261004183122if_/https://sideeffects.embl.de/media/download/$f" || echo "Could not fetch $f; see DATASETS.md."
 done
 
 echo "== FAERS sample (Kaggle) =="
